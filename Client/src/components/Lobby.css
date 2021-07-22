@@ -1,0 +1,21 @@
+.room {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+    background-image:linear-gradient(to bottom right, black,rgb(49, 48, 48));
+    
+  }
+  .avatar {
+    height: 200px;
+    width: 200px;
+  }
+  .stats {
+    display: flex;
+    width:100%;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  

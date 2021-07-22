@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  .home {
+    display: flex;
+    background: url(https://images-na.ssl-images-amazon.com/images/I/71ylek6gNdL._AC_SL1500_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+    object-fit: contain;
+    max-height: 100%;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .home_left {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 5%;
+  }
+  .home_left span {
+    margin-bottom: 6%;
+    font-size: 440%;
+    color: #fff;
+  }
+  .home_left a {
+    text-decoration: none;
+  }
+  .home_left p {
+    color: #695ba7;
+    display: inline;
+  }
+  .home_left h2 {
+    margin-bottom: 10px;
+    color: #78abe4cc;
+  }
+  
+  .btn {
+    margin: 0 4%;
+    font-size: 100%;
+    background: #4871b6;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px 36px;
+    vertical-align: middle;
+    margin-top: 50px;
+    border-radius: 6px;
+    font-weight: bold;
+    z-index:100;
+  }
+  
+  .right {
+    display: flex;
+    flex: 1;
+    margin: 2%;
+    justify-content: space-evenly;
+  }
+  .right h2 {
+    margin: 0px 2%;
+    color: #bbc5d1;
+  }
+  .right a {
+    width: 40%;
+    text-decoration: none;
+    height: fit-content;
+  }
+  .home_button {
+    display: flex;
+  }
+  .room_input{
+    margin: 0 4%;
+    font-size: 100%;
+    padding: 9px 18px;
+    vertical-align: middle;
+    margin-top: 50px;
+    border-radius: 6px;
+    font-weight: bold;
+    
+  }
+  input:focus{
+    outline: none;
+  }
